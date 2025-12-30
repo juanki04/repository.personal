@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="script.module.cocoscrapers.personal" name="CocoScrapers Personal Español" version="99.0.0" provider-name="Personal">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+        </requires>
+        <extension point="xbmc.python.module" library="lib"/>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="es">Scrapers de GranTorrent, DonTorrent y MejorTorrent</summary>
+            <description lang="es">Modificación personal para búsqueda exclusiva en castellano.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+</addons>
