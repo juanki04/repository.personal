@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-    <addon id="script.module.cocoscrapers.personal" name="CocoScrapers Personal Español" version="99.0.0" provider-name="Personal">
-        <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-        </requires>
-        <extension point="xbmc.python.module" library="lib"/>
-        <extension point="xbmc.addon.metadata">
-            <summary lang="es">Scrapers de GranTorrent, DonTorrent y MejorTorrent</summary>
-            <description lang="es">Modificación personal para búsqueda exclusiva en castellano.</description>
-            <platform>all</platform>
-        </extension>
-    </addon>
-</addons>
+<addon id="repository.personal" name="Mi Repo Juanki" version="1.0.0" provider-name="juanki04">
+    <extension point="xbmc.addon.repository" name="Mi Repo Juanki">
+        <dir>
+            <info>https://raw.githubusercontent.com/juanki04/repository.personal/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/juanki04/repository.personal/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/juanki04/repository.personal/main/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio personal de Scrapers Españoles</summary>
+        <description>Contiene el addon modificado para buscar en webs castellanas.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
